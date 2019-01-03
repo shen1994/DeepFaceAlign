@@ -13,8 +13,9 @@
 > * 测试数据`python test.py`
 
 ### 3. 参考  
-> * [Deep-Alignment-Network-tensorflow](https://github.com/mariolew/Deep-Alignment-Network-tensorflow)  
-> * [Deep-Alignment-Network](https://github.com/JWSunny/Deep-Alignment-Network)
+> * [Deep Alignment Network 论文](https://www.researchgate.net/profile/Marek_Kowalski5/publication/319277818_Deep_Alignment_Network_A_Convolutional_Neural_Network_for_Robust_Face_Alignment/links/59a22f05aca2726b90166eba/Deep-Alignment-Network-A-Convolutional-Neural-Network-for-Robust-Face-Alignment.pdf?origin=publication_detail)
+> * [Deep-Alignment-Network-tensorflow 代码](https://github.com/mariolew/Deep-Alignment-Network-tensorflow)  
+> * [Deep-Alignment-Network 代码](https://github.com/JWSunny/Deep-Alignment-Network)
 
 ### 4. 问题  
 > * 训练不充分，数据集量太少  
