@@ -54,13 +54,14 @@ if __name__ == "__main__":
     cv2.moveWindow("test", 100, 100)
 
     while(True):
-        '''
+
         for i in range(68):
             x = int(landmark[i][0])
             y = int(landmark[i][1])
 
             cv2.circle(o_image, (x, y), 5, (0, 0, 255), -1)
-        cv2.imshow("test", r_image)
+        cv2.imshow("test", o_image)
+	
         '''
         min_width = np.min(np.array([o_image.shape[1], o_image.shape[0]]))
         d_landmark = np.array([[min_width/112.0, 0], [0, min_width/112.0]])
@@ -68,7 +69,7 @@ if __name__ == "__main__":
         R = R.tolist()
         print(np.arctan(R[0][1] / R[0][0]) / np.pi * 180.0)
         cv2.imshow("test", r_image)
-    
+        '''    
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
         
